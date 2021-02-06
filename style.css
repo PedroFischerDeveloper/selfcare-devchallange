@@ -197,36 +197,6 @@ button {
     color: #fff;
 
 }
-@media screen and (max-width: 980px) {
-    .news {
-        padding: 0 4%;
-        flex-direction: column;
-    }
-
-    .left-news {
-        flex-direction: column;
-    }
-
-    .right-news {
-        margin-top: 20%;
-        width: 100%;
-        flex-direction: column;    
-    }
-    
-    .input {
-        margin-top: 20px;
-        margin-left: 0.1%;
-        width: 100%;
-    }
-
-    button {
-        margin-top: 20px;
-        margin-bottom: 40px;
-        margin-left: 0.1%;
-        width: 100%;
-        border-radius: 5px;
-    }
-}
 /* footer ===========================*/
 footer {
     padding: 2% 2%;
@@ -252,3 +222,38 @@ footer {
     height: 30px;
 }
 
+@media screen and (max-width: 980px) {
+    .news {
+        padding: 0 4%;
+        flex-direction: column;
+    }
+
+    .left-news {
+        margin-top: 5%;
+        flex-direction: column;
+    }
+
+    .right-news {
+        margin-top: 12%;
+        width: 100%;
+        flex-direction: column;    
+    }
+    
+    .input {
+        margin-top: 20px;
+        margin-left: 0.1%;
+        width: 100%;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 0.1%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    footer {
+        margin: 2% 0;
+    }
+}
